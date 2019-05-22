@@ -1,0 +1,257 @@
+/***** Base Style *****/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f202b;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#about {
+    height: 550px;
+    
+}
+
+#portfolio {
+    height: 1550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** Header info *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero-background.png');
+    background-size: cover; 
+}
+
+header h1 {
+    color: #fa0075;
+    float: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    
+    padding-top: 23px;
+    position: relative;
+}
+
+nav ul li a {
+    color:  white;
+    font-size: 18px;
+    float: right;
+    padding-left: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #c49075;
+
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #c49075;
+    position: absolute;
+    top: 0;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+header h2 {
+    color:  white;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding:20px 0 20px 25px;
+    width: 1000px;
+    
+}
+
+
+
+header h2 span {
+    color: #fa0075;
+}
+
+/***** Portfolio *****/
+
+#portfolio .full-width {
+    margin: auto;  
+    padding: 115px 0;
+}
+
+#portfolio .half-width {
+    padding: 20px;
+    margin: 1px;
+}
+
+
+#portfolio img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+} 
+
+#portfolio h2 {
+    color: #fa0075;
+    text-align: center;
+}
+
+#portfolio h3 {
+    font-size: 24px; 
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#portfolio p, h3 {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    margin: 0px;
+    
+}
+
+#holstee {
+    clear: both;
+    
+    
+}
+
+
+
+
+/***** About ME *****/
+
+#about .full-width {
+    padding: 80px 0;
+    margin: 25px;
+    clear: both;
+}
+
+#about h2 {
+    color: #fa0075;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+#about h3 {
+    text-align: center;
+}
+
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    
+}
+
+
+/***** Contact *****/
+
+footer {
+    clear: both;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact {
+    
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    padding-bottom: 30px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
